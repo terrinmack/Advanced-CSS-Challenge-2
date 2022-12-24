@@ -1,0 +1,106 @@
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 50px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.headings{
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+/* about me */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#pic{
+    display: flex;
+}
+
+#pic Img{
+    width: 600px;
+    height: 400px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/*  */
