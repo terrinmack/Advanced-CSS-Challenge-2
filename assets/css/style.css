@@ -15,6 +15,7 @@ html{
     display: flex;
     list-style: none;
     margin: 20px 0px;
+    text-align: center;
 }
 
 .navbar ul li {
@@ -117,6 +118,11 @@ h2 {
     margin: 40px 0px;
 }
 
+#home img {
+    width: 800px;
+    margin-left: auto;
+    display: block;
+}
 /* about me */
 #about {
     color: white;
@@ -146,6 +152,10 @@ h3 {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+}
+
+.subheadings {
+    font-size: 2rem;
 }
 
 /* contact */
@@ -197,22 +207,14 @@ h3 {
 }
 
 /* make responsive on mobile */
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
+  @media (max-width: 640px) {
+    .navbar {
+        text-align: center;
     }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+    .navbar ul {
+        flex-direction: column;
     }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
+    .navbar li {
+        margin: 0.8em 0;
     }
-  }
+}
