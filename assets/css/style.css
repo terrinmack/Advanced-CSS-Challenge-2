@@ -91,6 +91,7 @@ html{
 }
 
 .header {
+    text-align: center;
     font-size: 4rem;
     color: black;
 }
@@ -120,7 +121,7 @@ h2 {
 
 #home img {
     width: 800px;
-    margin-left: auto;
+    margin-left: 25%;
     display: block;
 }
 /* about me */
@@ -207,7 +208,7 @@ h3 {
 }
 
 /* make responsive on mobile */
-  @media (max-width: 640px) {
+  @media (max-width: 750px) {
     .navbar {
         text-align: center;
     }
@@ -216,5 +217,8 @@ h3 {
     }
     .navbar li {
         margin: 0.8em 0;
+    }
+    #home img {
+        max-width: 70%;
     }
 }
