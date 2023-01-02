@@ -207,4 +207,7 @@ h3 {
     .navbar li {
         margin: 0.8em 0;
 }
+    #home img {
+        width: 100%;
+    }
   }
