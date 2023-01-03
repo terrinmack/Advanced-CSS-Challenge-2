@@ -16,7 +16,7 @@
 # Webpage Image with working link
 <!-- webpage link with image -->
 ### Link https://terrinmack.github.io/Starter-Portfolio/
-![Webpage Screenshot](assets\images\webpage-screenshot.jpg)
+![Webpage Screenshot](assets/images/webpage-screenshot.jpg)
 
 <br>
 
